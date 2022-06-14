@@ -1,1 +1,1 @@
-# rsschool-cv
+https://astafyeva-marina.github.io/rsschool-cv/
