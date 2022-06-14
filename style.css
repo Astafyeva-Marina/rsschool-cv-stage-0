@@ -1,0 +1,131 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    margin: 0; 
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #38761D;
+}
+html {
+    scroll-behavior: smooth; 
+  }
+* {
+    box-sizing: border-box;
+  }
+  .head-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgb(138, 121, 53);
+  }
+.main-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+.foot-container {
+    max-width: 1440px;
+    padding-top: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(205, 157, 0);
+  }
+  .nav-list {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    line-height: 50px;
+     }
+.nav-link {
+    text-decoration: none;
+    color: rgb(227, 204, 0);
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: bolder;
+    transition: color 0.5s;
+    padding: 50px;
+  }
+.nav-link:hover {
+    color: #cf973e;
+    }
+.link {
+    text-decoration: none;
+    color: rgb(227, 204, 0);
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    transition: color 0.5s;
+    }
+.link:hover {
+    color: #cf973e;
+    }
+    li {
+    text-decoration: none;
+    color: rgb(227, 204, 0);
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+    ul {
+    padding: 0;
+       }
+    h1 {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(227, 204, 0);
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-align: left;
+    }
+    .img-avatar {
+    width: 20%;
+    border-radius: 50%; 
+    }
+    .img-logo {
+    width: 40%;
+    margin-right: 10px;
+    }
+    h2 {
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    color: #cf973e;
+    font-weight: bold;
+    }
+    p{
+    text-decoration: none;
+    color: rgb(227, 204, 0);
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding: 50 px;
+    margin: 0;
+    }
+    .text-yellow {
+    color: #cf973e; 
+    }
+    .section {
+    width: 50%;
+    padding:20px 20px;
+    }
+    .section-profile{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border-bottom: 2px solid white;
+    padding-bottom: 20px;
+    }
+    @media (max-width: 768px) {
+    .section {
+    width: 100%;
+      }
+    }
+    code{
+    color: rgb(253, 241, 253);
+    font-size: 18px;
+    font-family: 'Cairo', sans-serif;
+    line-height: 2px;
+    }
